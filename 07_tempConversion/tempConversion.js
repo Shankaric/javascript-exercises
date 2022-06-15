@@ -5,7 +5,7 @@ const ftoc = function() {
 };
 
 const ctof = function() {
-  let celcius=37.8;
+   let celcius=0;
   let ctof=Math.floor(celcius*9/5)+32;
   return ctof;
 };
