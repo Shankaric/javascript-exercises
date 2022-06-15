@@ -1,7 +1,9 @@
 const sumAll = function() {
-for(i=1;i>=4;i++){
-    return z=i+i;
+    var total=0;
+for(i=1;i<=4;i++){
+      total += i;
 }
+return total;
 };
 
 // Do not edit below this line
